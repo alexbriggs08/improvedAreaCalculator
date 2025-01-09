@@ -38,4 +38,4 @@ int main() {
     return 0;
 }
 
-/* version 1.0 | made by Alex Briggs | Coded on Clion
+/* version 1.0.1 | made by Alex Briggs | Coded on Clion */
