@@ -1,0 +1,3 @@
+/Users/alex/CLionProjects/c_areaCalculator/cmake-build-debug/CMakeFiles/c_areaCalculator.dir
+/Users/alex/CLionProjects/c_areaCalculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alex/CLionProjects/c_areaCalculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
