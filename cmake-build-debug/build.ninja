@@ -61,6 +61,24 @@ build CMakeFiles/c_areaCalculator.dir/welcomeMessage.cpp.o: CXX_COMPILER__c_area
   OBJECT_DIR = CMakeFiles/c_areaCalculator.dir
   OBJECT_FILE_DIR = CMakeFiles/c_areaCalculator.dir
 
+build CMakeFiles/c_areaCalculator.dir/getUserAreaPerimerterExit.cpp.o: CXX_COMPILER__c_areaCalculator_unscanned_Debug /Users/alex/CLionProjects/c_areaCalculator/getUserAreaPerimerterExit.cpp || cmake_object_order_depends_target_c_areaCalculator
+  DEP_FILE = CMakeFiles/c_areaCalculator.dir/getUserAreaPerimerterExit.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c_areaCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_areaCalculator.dir
+
+build CMakeFiles/c_areaCalculator.dir/userCalculations.cpp.o: CXX_COMPILER__c_areaCalculator_unscanned_Debug /Users/alex/CLionProjects/c_areaCalculator/userCalculations.cpp || cmake_object_order_depends_target_c_areaCalculator
+  DEP_FILE = CMakeFiles/c_areaCalculator.dir/userCalculations.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c_areaCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_areaCalculator.dir
+
+build CMakeFiles/c_areaCalculator.dir/askUserExit.cpp.o: CXX_COMPILER__c_areaCalculator_unscanned_Debug /Users/alex/CLionProjects/c_areaCalculator/askUserExit.cpp || cmake_object_order_depends_target_c_areaCalculator
+  DEP_FILE = CMakeFiles/c_areaCalculator.dir/askUserExit.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/c_areaCalculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_areaCalculator.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c_areaCalculator
@@ -69,7 +87,7 @@ build CMakeFiles/c_areaCalculator.dir/welcomeMessage.cpp.o: CXX_COMPILER__c_area
 #############################################
 # Link the executable c_areaCalculator
 
-build c_areaCalculator: CXX_EXECUTABLE_LINKER__c_areaCalculator_Debug CMakeFiles/c_areaCalculator.dir/main.cpp.o CMakeFiles/c_areaCalculator.dir/welcomeMessage.cpp.o
+build c_areaCalculator: CXX_EXECUTABLE_LINKER__c_areaCalculator_Debug CMakeFiles/c_areaCalculator.dir/main.cpp.o CMakeFiles/c_areaCalculator.dir/welcomeMessage.cpp.o CMakeFiles/c_areaCalculator.dir/getUserAreaPerimerterExit.cpp.o CMakeFiles/c_areaCalculator.dir/userCalculations.cpp.o CMakeFiles/c_areaCalculator.dir/askUserExit.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
   OBJECT_DIR = CMakeFiles/c_areaCalculator.dir
   POST_BUILD = :
